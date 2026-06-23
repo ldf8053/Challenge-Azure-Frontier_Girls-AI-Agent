@@ -12,7 +12,9 @@ Knowledge base integration
 Testing with patient scenarios
 Tool and action configuration
 Email automation for specialist scheduling
+
 🚀 Technologies Used
+
 Microsoft Azure AI Foundry
 Azure AI Agents
 Prompt Engineering
@@ -20,22 +22,27 @@ Knowledge Base
 Actions & Tools
 Email Automation
 Generative AI
+
 🏗️ Development Process
+
 1. Environment Setup
 Created a Resource Group.
 Created a new Project/Hub in Azure AI Foundry.
 Selected and deployed the AI model.
-2. Agent Creation
+
+3. Agent Creation
 Defined the agent instructions.
 Added descriptions and behavioral guidelines.
 Configured restrictions on topics and responses.
-3. Knowledge Integration
+
+4. Knowledge Integration
 
 A knowledge file was uploaded so the agent could understand:
 
 Patient information.
 Referral criteria for different physiotherapy specialties.
 Contextual information to support decision-making.
+
 4. Testing and Prompt Engineering
 
 Several tests were performed:
@@ -44,6 +51,7 @@ Using only patient symptoms.
 Comparing information provided in prompts versus uploaded documents.
 Evaluating the use of Tools and Knowledge sources.
 Refining instructions to improve responses.
+
 5. Action Configuration
 
 An action was added to enable automatic email generation containing:
@@ -55,6 +63,7 @@ Scheduling information.
 Initially, the email failed because the sender address had not been provided in the prompt. After adjusting the input, the email was successfully sent.
 
 ⚙️ Agent Workflow
+
 Patient Complaint
         ↓
 AI Agent Analysis
@@ -66,6 +75,7 @@ Specialty Recommendation
 Email Generation
         ↓
 Appointment Request
+
 🧠 Main Features
 
 ✔️ Analyze patient complaints
@@ -83,6 +93,7 @@ Appointment Request
 ✔️ Test and debug agent behavior
 
 📂 Architecture
+
 Azure AI Foundry
 │
 ├── Model Deployment
@@ -94,6 +105,7 @@ Azure AI Foundry
 │     └── Actions
 │
 └── Email Automation
+
 📸 Project Stages
 Resource Group creation
 Project and Hub setup
@@ -113,13 +125,14 @@ This project was developed as part of the Azure Frontier Girls Program, an initi
 Through this project, I gained practical experience with:
 
 Azure AI Foundry
-AI Agents
-Prompt Engineering
-Retrieval-Augmented Generation (RAG)
-Knowledge integration
-Agent Actions and Tools
-Debugging and testing AI systems
-Workflow automation
+
+✔️ AI Agents
+✔️ Prompt Engineering
+✔️ Retrieval-Augmented Generation (RAG)
+✔️ Knowledge integration
+✔️ Agent Actions and Tools
+✔️ Debugging and testing AI systems
+✔️ Workflow automation
 
 📄 License
 
