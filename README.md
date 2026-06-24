@@ -38,11 +38,18 @@ This project demonstrates the development and configuration of an AI agent in Az
 - Created a Project and Hub in Azure AI Foundry
 - Selected and deployed the AI model
 
+  ![Action](images%20AFG/AFG%203.png)
+  ![Action](images%20AFG/AFG%205.png)
+  ![Action](images%20AFG/AFG%207.png)
+
 ### 2. Agent Creation
 
 - Defined the agent instructions
 - Added descriptions and behavioral guidelines
 - Configured restrictions on topics and responses
+
+  ![Action](images%20AFG/AFG%208.png)
+  ![Action](images%20AFG/AFG%209.png)
 
 ### 3. Knowledge Integration
 
@@ -61,6 +68,10 @@ Several tests were performed:
 - Evaluating the use of Tools and Knowledge sources
 - Refining instructions to improve response quality
 
+  ![Action](images%20AFG/AFG%2011.png)
+  ![Action](images%20AFG/AFG%2016.png)
+  ![Action](images%20AFG/AFG%2019.png)
+
 ### 5. Action Configuration
 
 An action was added to enable automatic email generation containing:
@@ -69,7 +80,8 @@ An action was added to enable automatic email generation containing:
 - Recommended specialty
 - Scheduling information
 
-Initially, the email failed because the sender address had not been provided in the prompt. After adjusting the input, the email was successfully sent.
+![Action](images%20AFG/AFG%2033.png)
+![Action details](images%20AFG/AFG%2034.png)
 
 ---
 
@@ -132,6 +144,10 @@ Azure AI Foundry
 - Action creation
 - Agent testing and debugging
 - Email automation
+
+  ![Action](images%20AFG/AFG%2035.png)
+  ![Action](images%20AFG/AFG%2036.png)
+  ![Action](images%20AFG/AFG%2038.png)
 
 ---
 
